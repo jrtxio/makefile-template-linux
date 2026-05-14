@@ -16,8 +16,8 @@ int main(int argc, char *argv[])
     switch (res)
     {
     case RES_OK:
-        printf("hex file to bin file success!\r\n");
-        return -1;
+        printf("bin file to hex file success!\r\n");
+        return 0;
     case RES_BIN_FILE_NOT_EXIST:
         printf("bin file doesn't exist!\r\n");
         return -1;

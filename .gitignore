@@ -1,0 +1,11 @@
+# Build output
+build/
+
+# IDE
+.vscode/*.log
+
+# Generated files
+*.o
+*.d
+output.hex
+input.bin
